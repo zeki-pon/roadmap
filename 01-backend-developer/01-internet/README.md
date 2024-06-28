@@ -34,7 +34,7 @@
   * done [SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo)
 * 時間をかけて学ぶ
   * skip [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
-  * [Full HTTP Networking Course – Fetch and REST APIs in JavaScript](https://www.youtube.com/watch?v=2JYT5f2isg4)
+  * in progress [Full HTTP Networking Course – Fetch and REST APIs in JavaScript](https://www.youtube.com/watch?v=2JYT5f2isg4)
 * 補助
   * 『ネットワークはなぜつながるのか』
   * 『サーバ/インフラエンジニアの基本がこれ１冊でしっかり身に付く本』
@@ -67,13 +67,13 @@
 
 # DNS and how it works?
 * まず見る、読む
-  * [How DNS works (comic)](https://howdns.works/)
-  * [DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
-  * [DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
+  * done [How DNS works (comic)](https://howdns.works/)
+  * done [DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
+  * done [DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
 * 時間をかけて学ぶ
-  * [What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
-  * [Understanding Domain names](https://developer.mozilla.org/en-US/docs/Glossary/DNS)
-  * [Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
+  * skip [What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
+  * skip [Understanding Domain names](https://developer.mozilla.org/en-US/docs/Glossary/DNS)
+  * skip [Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
 * 補助
   * [Explore top posts about DNS](https://app.daily.dev/tags/dns?ref=roadmapsh)
   * 『ネットワークはなぜつながるのか』
@@ -81,9 +81,9 @@
 
 # Browsers and how they work?
 * まず見る、読む
-  * [How Browsers Work](https://web.dev/articles/howbrowserswork?hl=ja)
-  * [Understanding the Role of Rendering Engine in Browsers](https://www.browserstack.com/guide/browser-rendering-engine)
-  * [Populating the page: how browsers work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)
+  * in progress [How Browsers Work](https://web.dev/articles/howbrowserswork?hl=ja)
+  * skip [Understanding the Role of Rendering Engine in Browsers](https://www.browserstack.com/guide/browser-rendering-engine)
+  * skip [Populating the page: how browsers work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)
 * 時間をかけて学ぶ
   * 特になし（本来はHow Browsers Workをここに入れるべきだが、入門的な内容が他になかった）
 * 補助
