@@ -10,3 +10,5 @@ https://www.youtube.com/watch?v=Zi-Q0t4gMC8<br>
 * 書き方を学ぶ段階
 * プログラムの組み方を学ぶ段階
 * アプリケーションの作り方を学ぶ段階
+
+一通りJavaScriptの文法を触ったので、full-http-networking-courseの学習に戻る
