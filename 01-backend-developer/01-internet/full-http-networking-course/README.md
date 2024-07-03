@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=Zi-Q0t4gMC8<br>
 * 動画に戻り、Projを進める
 
 # 詰まったところ
-## 1-web-communication
+## 1-why-http
 写経して動かしたところ、以下のエラー
 ```
 /Users/imazeki/WorkSpace/roadmap/01-backend-developer/01-internet/full-http-networking-course/1-web-communication/code.js:2
