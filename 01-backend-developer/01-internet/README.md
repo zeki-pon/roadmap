@@ -81,9 +81,9 @@
 
 # Browsers and how they work?
 * まず見る、読む
-  * in progress [How Browsers Work](https://web.dev/articles/howbrowserswork?hl=ja)
+  * skip [How Browsers Work](https://web.dev/articles/howbrowserswork?hl=ja)
   * skip [Understanding the Role of Rendering Engine in Browsers](https://www.browserstack.com/guide/browser-rendering-engine)
-  * skip [Populating the page: how browsers work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)
+  * in progress [Populating the page: how browsers work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)
 * 時間をかけて学ぶ
   * 特になし（本来はHow Browsers Workをここに入れるべきだが、入門的な内容が他になかった）
 * 補助
