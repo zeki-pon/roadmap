@@ -17,7 +17,15 @@ https://www.youtube.com/watch?v=Zi-Q0t4gMC8<br>
 # 実際の進め方
 学習の進め方は以下の通り
 * インタラクティブ版でch10まで進める
+  * ch4以降は課金が必要だったので、MDNのサイトで各チャプター相当の内容を学習する
 * 動画に戻り、Projを進める
+
+やっていくうちに下記のやり方がうまくいくように感じた。<br>
+* Boot.devの解説を読む（英語）
+  * コードがある場合はそれをローカルに持ってきて動くように修正する。
+  * クイズの場合は正解を考える
+* 動画を見る（日本語字幕）
+  * 上記の回答を確認しつつ、内容のおさらいをする。
 
 # 詰まったところ
 ## 1-why-http
@@ -63,6 +71,24 @@ SyntaxError: Cannot use import statement outside a module
 対策は下記のサイト（ちょっと古いが）に記載があった。<br>
 https://blog.kimizuka.org/entry/2021/09/10/223310<br>
 
+## 2-dns
+
+## 3-uris
+
+## 4-async
+
+
+## 5-errors
+
+## 6-headers
+
+## 7-json
+
+## 8-http-methods
+
+## 9-paths-and-parameters
+
+## 10-https
 
 # 各種リンク
 * Code: https://github.com/bootdotdev/fcc-learn-http-assets
