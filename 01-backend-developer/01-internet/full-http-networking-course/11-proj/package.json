@@ -1,0 +1,12 @@
+{
+  "name": "webcrawlerhttp",
+  "version": "1.0.0",
+  "description": "動画を参考に、コマンドラインアプリケーションを作成する。<br> アプリケーションの目的は、WebサイトをクロールしてWebサイトの内部リンク構造のレポートを作成すること。",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
