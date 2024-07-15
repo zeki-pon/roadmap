@@ -1,6 +1,6 @@
 const { crawlPage } = require('./crawl.js')
 
-function main() {
+async function main() {
     // 最初の引数はプログラムの名前
     // 2番目の引数はコードまたはエントリポイントファイルの名前
     // そのため、3という数値が出てくる
@@ -15,8 +15,14 @@ function main() {
     }
     const baseURL = process.argv[2];
 
-    console.log(`starting crawl or ${baseURL}`);
-    crawlPage(baseURL);
+    console.log(`starting crawl of ${baseURL}`);
+
+    // クロールの出発点としての呼び出しのため、currentURLもbaseURLと一致する
+    const pages = await crawlPage(baseURL, baseURL, {});
+
+    for (const page of Object.entries(pages)) {
+        console.log(page);
+    }
 }
 
 main()

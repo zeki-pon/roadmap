@@ -1,6 +1,23 @@
 const { JSDOM } = require('jsdom')
 
-async function crawlPage(currentURL) {
+async function crawlPage(baseURL, currentURL, pages) {
+    const baseURLObj = new URL(baseURL);
+    const currentURLObj = new URL(currentURL);
+
+    // 外部リンクは対象外とする
+    if (baseURLObj.hostname !== currentURLObj.hostname) {
+        return pages;
+    }
+
+    // 処理済みのリンクであればリターン
+    const normalizedCurrentURL = normalizeURL(currentURL);
+    if (pages[normalizedCurrentURL] > 0) {
+        pages[normalizedCurrentURL]++
+        return pages
+    }
+
+    pages[normalizedCurrentURL] = 1;
+
     console.log(`actively crawling: ${currentURL}`);
 
     try {
@@ -9,21 +26,29 @@ async function crawlPage(currentURL) {
         if (resp.status > 399) {
             // test command: npm run start https://wagslane.dev/garbagepath
             console.log(`error in fetch with status code: ${resp.status} on page: ${currentURL}`);
-            return;
+            return pages;
         }
 
         const contentType = resp.headers.get("content-type");
         if (!contentType.includes("text/html")) {
             // test command: npm run start https://wagslane.dev/sitemap.xml
             console.log(`non html response, content type: ${contentType} on page: ${currentURL}`);
-            return;
+            return pages;
         }
 
         // htmlとしてフォーマットしたいので.text()
-        console.log(await resp.text());
+        const htmlBody = await resp.text();
+
+        const nextURLs = getURLsFromHTML(htmlBody, baseURL);
+
+        for (const nextURL of nextURLs) {
+            pages = await crawlPage(baseURL, nextURL, pages);
+        }
     } catch (error) {
         console.log(`error in fetch: ${error.message}, on page: ${currentURL}`);
+        return pages;
     }
+    return pages;
 
 
 }
