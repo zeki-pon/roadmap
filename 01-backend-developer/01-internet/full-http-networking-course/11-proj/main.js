@@ -1,5 +1,7 @@
 const { crawlPage } = require('./crawl.js')
+const { printReport } = require('./report.js')
 
+// test command: npm run start https://wagslane.dev
 async function main() {
     // 最初の引数はプログラムの名前
     // 2番目の引数はコードまたはエントリポイントファイルの名前
@@ -19,10 +21,11 @@ async function main() {
 
     // クロールの出発点としての呼び出しのため、currentURLもbaseURLと一致する
     const pages = await crawlPage(baseURL, baseURL, {});
-
-    for (const page of Object.entries(pages)) {
-        console.log(page);
-    }
+    printReport(pages);
 }
 
 main()
+
+// todo
+// utの追加
+// webクローラーの機能強化
