@@ -34,7 +34,7 @@
   * done [SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo)
 * 時間をかけて学ぶ
   * skip [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
-  * in progress [Full HTTP Networking Course – Fetch and REST APIs in JavaScript](https://www.youtube.com/watch?v=2JYT5f2isg4)
+  * done [Full HTTP Networking Course – Fetch and REST APIs in JavaScript](https://www.youtube.com/watch?v=2JYT5f2isg4)
 * 補助
   * 『ネットワークはなぜつながるのか』
   * 『サーバ/インフラエンジニアの基本がこれ１冊でしっかり身に付く本』
@@ -81,7 +81,7 @@
 
 # Browsers and how they work?
 * まず見る、読む
-  * skip [How Browsers Work](https://web.dev/articles/howbrowserswork?hl=ja)
+  * done [How Browsers Work](https://web.dev/articles/howbrowserswork?hl=ja)
   * skip [Understanding the Role of Rendering Engine in Browsers](https://www.browserstack.com/guide/browser-rendering-engine)
   * in progress [Populating the page: how browsers work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)
 * 時間をかけて学ぶ
